@@ -35,7 +35,7 @@ The source MAC and source IP are both spoofable.
 
 
 ```
-$ source-ip-spoofer enp4s0 192.168.10.10 192.168.20.20  11000 389  00:eb:d5:43:de:60 AAAA01000001000000000000076578616d706c6503636f6d0000010001
+$ ./source-ip-spoofer enp4s0 192.168.10.10 192.168.20.20  11000 389  00:eb:d5:43:de:60 AAAA01000001000000000000076578616d706c6503636f6d0000010001
 Usage:
       enp4s0              Network interface for packet injection
       192.168.10.10       Sending address in the IP header
