@@ -6,8 +6,8 @@ in rust using the pnet library.
 ## Installation
 
 #### Permissions
-`udpspoof` creates raw packets which requires special permissions. If
-you don't wish to use `sudo` or run `udpspoof` as root, you can
+`source-ip-spoofer` creates raw packets which requires special permissions. If
+you don't wish to use `sudo` or run `source-ip-spoofer` as root, you can
 assign the needed capability directly to the executable on Linux
 systems:
 ```
